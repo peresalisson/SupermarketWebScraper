@@ -3,8 +3,8 @@
     public class ProductInfoDTO
     {
 
-        public string ProductName { get; set; }
-        public string ProductValue { get; set; }
+        public string? ProductName { get; set; }
+        public string? ProductValue { get; set; }
 
         public ProductInfoDTO()
         {

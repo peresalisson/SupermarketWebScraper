@@ -1,14 +1,12 @@
 ﻿
 using HtmlAgilityPack;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using WebScraperAPI.DTO;
 
 namespace ContinenteScrapingController.Controllers
 {
     [ApiController]
+    [ApiVersion("1.0")]
     [Route("GetProductsInfo")]
     public class ContinenteScrapingController : ControllerBase
     {
